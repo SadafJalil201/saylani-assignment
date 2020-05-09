@@ -1,0 +1,200 @@
+.container{
+    background-color: rgba(63, 71, 204);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-sizing: 100%;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 1px 5px 5px 5px;
+    display: inline-block;
+    padding: 5px 5px;
+    color:#fff;
+    
+}
+#but{
+    border-color: darkgreen;
+    border-width: 1px;
+    color: darkgreen;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    background-color:#fff;
+    
+}
+#sty{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-indent:20px;
+}
+.second{
+    background-color: rgb(238, 236, 234);
+    margin-right: 2px;
+    margin-left: 2px;
+    box-sizing: 100%;
+    display: inline-flex;
+    padding: 15px 15px;
+}
+li{
+    color: black;
+    text-decoration: n;
+}
+.home{
+    color: #fff;
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 1px 5px 1px 5px;
+    border-radius: 25%;
+    border-width: 8px;
+
+}
+.second ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .second ul li:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    
+}
+
+
+.dropbtn {
+    
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:blue;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+  #news{
+      color: white;
+      background-color: blue;
+        }
+    
+        h2 {
+            display: inline-block;
+            font-size: 36px;
+            background: linear-gradient(to right, blue 0%, blue 50%, green 50%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+  .third{
+      text-align: center;
+      background-color: rgb(252, 248, 248);
+      width: 100%;
+      height: 500px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+  }
+
+  #para{
+      text-align: justify;
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  
+ .al{
+     background-color: blue;
+     display: flex;
+     color: white;
+     justify-content: center;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding: 10px 5px 10px 5px;
+ }
+.intro{
+    display: block;
+    margin-left: 40%;
+}
+.doing{
+    background-color: rgb(252, 248, 248);
+}
+.doing1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-content: center;
+    margin-left: 30%;
+}
+  .intro2{
+    display: block;
+    margin-left: 20%;
+  }
+.doer{
+    margin-left: 10px 5PX 10PX 5PX;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+.box{
+    background-color: white;
+    color: blue;
+    width: 300px;
+    height: 200px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    justify-content: center;
+}
+.font{
+    text-indent: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: bold;
+}
+.mission{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.hep{
+    background-color:rgb(212, 229, 235);
+    color: blue;
+    width: 400px;
+    height: 100px;
+    border-color: rgb(48, 42, 42);
+    margin: 5px 5px 10px 5px;
+    justify-content: center;
+}
+.doing3{
+    align-content: center;
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.img{
+    width: 250px;
+    height: 150px;
+}
